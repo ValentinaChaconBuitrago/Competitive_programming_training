@@ -57,7 +57,7 @@ int main(){
 					blu.push_back(bl);
 				}
 			}
-			//Include new elements in the set
+			//Include new elements in the set after a round of battles
 			for(auto i: gre) green.insert(i);
 			for(auto i:blu) blue.insert(i);
 		}

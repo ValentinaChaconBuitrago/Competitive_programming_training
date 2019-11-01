@@ -22,7 +22,7 @@ int main(){
 	for(int i=0;i<m;++i){
 		int p, x;
 		cin >> p >> x;
-		cout << total_time-times[p-1]+x<< endl;
+		cout << total_time-times[p-1]+x << endl;
 	}
 
 	return 0;

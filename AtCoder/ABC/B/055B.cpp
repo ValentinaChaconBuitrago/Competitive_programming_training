@@ -16,4 +16,5 @@ int main(){
 	}
 	cout << power << endl;
 	return 0;
+	 
 }

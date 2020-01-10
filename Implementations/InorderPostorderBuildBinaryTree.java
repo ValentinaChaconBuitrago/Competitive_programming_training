@@ -1,5 +1,5 @@
 //Build a BinaryTree from an inorder(left,root,right) and a postorder(left,right,root) traversal
-Class solution{
+class Solution{
 	/*
 	start and end index are meant to keep track of positions in the inorder array
 	root index keeps track of the root index in a general way
@@ -20,7 +20,7 @@ Class solution{
 
 		node.right = buildTree(inorder,postorder,currentNodeIndex+1,endIndex);
 		node.left = buildTree(inorder,postorder,startIndex,currentNode-1);
-		
+
 		return node;
 	}
 

@@ -32,7 +32,7 @@ class Solution {
             graph[origin].add(destination);
         }
 
-        //Step 3: define topolofical sorting of nodes
+        //Step 3: define topological sorting of nodes
         for(int i=0;i<numCourses;i++){
             if(visited[i]==0) topologicalSort(i);
         }

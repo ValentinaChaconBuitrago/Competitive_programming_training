@@ -5,7 +5,7 @@ class Solution {
     private int[] recStack;
     private Stack<Integer> stack;
 
-    //CASE 1: Topological sort in the case whith no cycles
+    //CASE 1: Topological sort with no cycles
     public void topologicalSort(int node){
         if(visited[node]==1) return;
 
